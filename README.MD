@@ -60,4 +60,4 @@ This is the current structure of the project
 ```
 
 ## License
-DANA Indonesia Copyright@2023
+Nansuri @2023
