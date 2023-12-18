@@ -1,0 +1,11 @@
+# OSP
+## System Config
+REDIS_DB_NAMESPACE: 2
+
+## General Config
+AUTHORIZATION_TOKEN_TIME_MINUTES_EXPIRY: 100
+REFRESH_TOKEN_TIME_HOURS_EXPIRY: 24
+
+# Clients
+## OSP BE
+OSP_BE_HOST: "https://staging-osp-be.dana.id/api"
