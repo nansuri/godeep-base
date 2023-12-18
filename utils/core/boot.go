@@ -37,5 +37,5 @@ func Intiatior() {
 		"╚█████╔╝██████╔╝██║░░░░░░░░░░░██████╦╝██║░░██║██████╔╝███████╗\n" +
 		"░╚════╝░╚═════╝░╚═╝░░░░░░░░░░░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝\n" +
 		os.Getenv("APP_NAME") + " Version: " + os.Getenv("APP_VERSION") + "-" + os.Getenv("APP_ENV") + "\n" +
-		"Copyright© 2023 DANA Indonesia. Initiated by N.\n\n")
+		"Copyright© 2023 Nansuri.\n\n")
 }
