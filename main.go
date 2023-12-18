@@ -3,13 +3,14 @@ package main
 import (
 	"os"
 
-	"bitbucket.org/be-proj/osp-base/infrastructure/auth"
-	clients "bitbucket.org/be-proj/osp-base/infrastructure/clients/osp"
-	"bitbucket.org/be-proj/osp-base/infrastructure/persistence"
-	"bitbucket.org/be-proj/osp-base/interfaces/handlers/base"
-	"bitbucket.org/be-proj/osp-base/interfaces/middleware"
-	routers "bitbucket.org/be-proj/osp-base/interfaces/routers/base"
-	"bitbucket.org/be-proj/osp-base/utils/core"
+	"github.com/nansuri/godeep-base/infrastructure/auth"
+	clients "github.com/nansuri/godeep-base/infrastructure/clients/osp"
+	"github.com/nansuri/godeep-base/infrastructure/persistence"
+	"github.com/nansuri/godeep-base/interfaces/handlers/base"
+	"github.com/nansuri/godeep-base/interfaces/middleware"
+	routers "github.com/nansuri/godeep-base/interfaces/routers/base"
+	"github.com/nansuri/godeep-base/utils/core"
+
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	"github.com/sirupsen/logrus"

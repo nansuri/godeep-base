@@ -1,5 +1,5 @@
 # osp-be-gp Service
-This is OSP Base
+This is GoDeep Base
 
 ## Prequisites
 #### Local Run

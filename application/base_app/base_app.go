@@ -3,7 +3,7 @@ package baseapp
 import (
 	"context"
 
-	"bitbucket.org/be-proj/osp-base/domain/repository/base"
+	"github.com/nansuri/godeep-base/domain/repository/base"
 )
 
 type baseApp struct {

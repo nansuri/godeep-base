@@ -3,9 +3,9 @@ package base
 import (
 	"context"
 
-	baseEntity "bitbucket.org/be-proj/osp-base/domain/entity/base"
-	"bitbucket.org/be-proj/osp-base/domain/repository/base"
+	baseEntity "github.com/nansuri/godeep-base/domain/entity/base"
 
+	"github.com/nansuri/godeep-base/domain/repository/base"
 	"gorm.io/gorm"
 )
 

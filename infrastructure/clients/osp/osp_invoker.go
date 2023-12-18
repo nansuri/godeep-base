@@ -3,8 +3,8 @@ package clients
 import (
 	"encoding/json"
 
-	utils "bitbucket.org/be-proj/osp-base/utils/logger"
 	"github.com/gin-gonic/gin"
+	utils "github.com/nansuri/godeep-base/utils/logger"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"github.com/tidwall/gjson"

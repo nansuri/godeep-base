@@ -1,8 +1,9 @@
 package base
 
 import (
-	"bitbucket.org/be-proj/osp-base/interfaces/handlers/base"
-	"bitbucket.org/be-proj/osp-base/interfaces/middleware"
+	"github.com/nansuri/godeep-base/interfaces/handlers/base"
+	"github.com/nansuri/godeep-base/interfaces/middleware"
+
 	"github.com/gin-gonic/gin"
 )
 

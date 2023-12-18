@@ -3,10 +3,11 @@ package middleware
 import (
 	"net/http"
 
-	enum "bitbucket.org/be-proj/osp-base/domain/enum/error_enum"
-	"bitbucket.org/be-proj/osp-base/infrastructure/auth"
-	logger "bitbucket.org/be-proj/osp-base/utils/logger"
-	utils "bitbucket.org/be-proj/osp-base/utils/response_handler"
+	enum "github.com/nansuri/godeep-base/domain/enum/error_enum"
+	"github.com/nansuri/godeep-base/infrastructure/auth"
+	logger "github.com/nansuri/godeep-base/utils/logger"
+	utils "github.com/nansuri/godeep-base/utils/response_handler"
+
 	"github.com/gin-gonic/gin"
 )
 

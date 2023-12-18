@@ -1,8 +1,8 @@
 package clients
 
 import (
-	"bitbucket.org/be-proj/osp-base/infrastructure/clients/osp/entity"
 	"github.com/gin-gonic/gin"
+	"github.com/nansuri/godeep-base/infrastructure/clients/osp/entity"
 )
 
 type OspUserServiceInterface interface {

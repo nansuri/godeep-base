@@ -4,10 +4,11 @@ import (
 	"os"
 	"time"
 
-	baseEntity "bitbucket.org/be-proj/osp-base/domain/entity/base"
-	enum "bitbucket.org/be-proj/osp-base/domain/enum/base"
-	baseRepo "bitbucket.org/be-proj/osp-base/domain/repository/base"
-	"bitbucket.org/be-proj/osp-base/infrastructure/persistence/base"
+	baseEntity "github.com/nansuri/godeep-base/domain/entity/base"
+	enum "github.com/nansuri/godeep-base/domain/enum/base"
+	baseRepo "github.com/nansuri/godeep-base/domain/repository/base"
+	"github.com/nansuri/godeep-base/infrastructure/persistence/base"
+
 	"github.com/sirupsen/logrus"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

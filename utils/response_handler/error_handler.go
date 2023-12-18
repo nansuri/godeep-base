@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	enum "bitbucket.org/be-proj/osp-base/domain/enum/error_enum"
+	enum "github.com/nansuri/godeep-base/domain/enum/error_enum"
+
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

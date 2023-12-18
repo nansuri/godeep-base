@@ -4,11 +4,12 @@ import (
 	"context"
 	"net/http"
 
-	baseapp "bitbucket.org/be-proj/osp-base/application/base_app"
-	clients "bitbucket.org/be-proj/osp-base/infrastructure/clients/osp"
-	"bitbucket.org/be-proj/osp-base/infrastructure/clients/osp/entity"
-	logger "bitbucket.org/be-proj/osp-base/utils/logger"
-	utils "bitbucket.org/be-proj/osp-base/utils/response_handler"
+	baseapp "github.com/nansuri/godeep-base/application/base_app"
+	clients "github.com/nansuri/godeep-base/infrastructure/clients/osp"
+	"github.com/nansuri/godeep-base/infrastructure/clients/osp/entity"
+	logger "github.com/nansuri/godeep-base/utils/logger"
+	utils "github.com/nansuri/godeep-base/utils/response_handler"
+
 	"github.com/gin-gonic/gin"
 )
 

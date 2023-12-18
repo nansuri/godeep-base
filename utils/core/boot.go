@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	enum "bitbucket.org/be-proj/osp-base/domain/enum/base"
+	enum "github.com/nansuri/godeep-base/domain/enum/base"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )
