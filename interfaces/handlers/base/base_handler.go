@@ -40,9 +40,7 @@ func (b *Base) BaseHeartBeatCheck(c *gin.Context) {
 		logger.LogErrorWithtracer(c, "BaseHeartBeatCheck", err.Error())
 	}
 
-	response := make(map[string]interface{})
-	response["theAnswer"] = theAnswer
 	// return the response
-	rh.ResponseEncoder(c, http.StatusAccepted, true, errDetail, "testResponse", response, true)
+	rh.ResponseEncoder(c, http.StatusAccepted, true, errDetail, "theAnswer", theAnswer, true)
 
 }
